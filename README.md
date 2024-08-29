@@ -12,3 +12,5 @@ Produce the SHA256 of the data file using the RP2350 hardware. Measure the time 
 
 ## WolfSSLSHA256
 Produce the SHA256 of the data file using the WolfSSL Crypt library and measure the time in ms.
+
+My normal WolfSSH port is designed for FreeRTOS, so just hacking it here to run baremetal for this experiment
